@@ -32,7 +32,7 @@ RUN \
     sshpass \
     openssh-client \
     openssh-server && \
-  echo -e 'LANG="en_US.UTF-8"\nLANGUAGE="en_US:en"\n' > /etc/default/locale && \
+  echo 'LANG="en_US.UTF-8"\nLANGUAGE="en_US:en"\n' > /etc/default/locale && \
   echo 'en_US.UTF-8 UTF-8' > /etc/locale.gen && \
   dpkg-reconfigure -f noninteractive locales && \
   apt-file update && \

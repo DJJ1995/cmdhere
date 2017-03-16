@@ -703,7 +703,7 @@ $(document).ready(function(){
   <tr>
     <th><a href="?act=phpinfo">PHP Info</a></th>
     <th><a href="/files/">文件下载</a></th>
-    <th><a href="/admin/">路由管理</a></th>
+    <th><a href="/gateway/">网关管理</a></th>
     <th><a href="//grafana.<?php echo $_SERVER['SERVER_NAME'];?>/dashboard/db/system-overview">Grafana</a></th>
   </tr>
 </table>
